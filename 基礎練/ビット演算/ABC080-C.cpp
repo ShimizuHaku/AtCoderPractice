@@ -8,13 +8,9 @@ int main(){
     int N;
     cin >> N;
 
-    //vector F(N,vector<vector<int>>(5,vector<int>(2,0)));
     vector F(N,vector<int>(10));
     for (int i = 0; i < N; ++i){
         for (int j = 0; j < 10; ++j) cin >> F[i][j];
-        // for (int j = 0; j < 5; ++j){
-        //     cin >> F[i][j][0] >> F[i][j][1];
-        // }
     }
     vector P(N,vector<int>(11));
     for (int i = 0; i < N; ++i){
